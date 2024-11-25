@@ -1,9 +1,28 @@
-# disSys_projs
-Lastly, using ZooKeeper, Kafka, and Docker, this project simulates a distributed system environment, enabling real-time background statistics on shopping orders by leveraging data storage and processing across multiple nodes.
+# Zookeeper_Kafka_Real-Time_shopping_project
+This repo uses ZooKeeper, Kafka, and Docker to simulates a distributed system environment, enabling real-time background statistics on shopping orders by leveraging data storage and processing across multiple nodes.
 
----
-1. [gRPC](https://github.com/WYC51/gRPC_Server_Client)
-2. [RESTful API](https://github.com/WYC51/RESTful-API)
-3. [Socket TCP](https://github.com/WYC51/socket_TCP)
-4. [Zookeeper and Kafka](./zookeeper_kafka/)
-    - `cd zookeeper_kafka`
+__This repository is a collaborative group project for a course.__
+
+- Environment
+  - Docker
+  - Linux 
+
+- Dependencies:
+    - `pip install -r requirements.txt`
+    
+- Docker Env :
+    - `docker-compose up -d --remove-orphans`
+
+- Create topic
+    - `python KafkaClient.py`
+    - Run this code when first run the repo
+
+- Consumner
+  - `python KafkaConsumer.py`
+
+- Producer
+  - `pytohn Producer.py`
+
+- References
+  - Data source: https://www.kaggle.com/datasets/mkechinov/ecommerce-behavior-data-from-multi-category-store
+  - For more details, please refer to our [presentation](./zookeeper_kafka/pdf/分散式系統期末報告%20Kafka%20應用.pdf)
