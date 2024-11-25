@@ -1,4 +1,4 @@
-# ZookeeperClient
+# Zookeeper_Kafka_Real-Time_shopping_project
 This repo uses ZooKeeper, Kafka, and Docker to simulates a distributed system environment, enabling real-time background statistics on shopping orders by leveraging data storage and processing across multiple nodes.
 
 __This repository is a collaborative group project for a course.__
